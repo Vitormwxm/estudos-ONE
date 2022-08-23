@@ -1,0 +1,74 @@
+<canvas width="1200" height="800">bandeira do brasil </canvas> <!--Serve para desenhar no HTML-->
+<canvas width="1200" height="800"></canvas>
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext ('2d') //aqui criamos uma varíavel chamada pincel, onde ela vai receber o tela.getContext que serve para chamar um contexto do nosso pincel onde informaremos se queremos um pincel 2d ou 3d.
+
+    pincel.fillStyle = "lightgrey"; // server para escolher um pincel para o canvas
+    pincel.fillRect(0, 0 , 600 , 400); //serve para delimitar o espaço na tela que vai ser pintado.
+
+    pincel.fillStyle = "green";
+    pincel.fillRect(0 , 0 , 600 , 400);
+
+    pincel.fillStyle = "yellow";
+    pincel.beginPath(); //serve para definir onde vamos começar a construir um elemento
+    pincel.moveTo(300 , 100);
+   
+    pincel.lineTo(50 , 200 );
+    pincel.lineTo(550 , 200);
+    pincel.fill();
+
+    pincel.fillStyle = "yellow";
+    pincel.beginPath(); //serve para definir onde vamos começar a construir um elemento
+    pincel.moveTo(300 , 300);
+   
+    pincel.lineTo(50 , 200 );
+    pincel.lineTo(550 , 200);
+    pincel.fill();
+
+    pincel.fillStyle = "blue";
+    pincel.beginPath();
+    pincel.arc(300, 200,50 , 0 , 2 * 14) //está função serve para fazer um arco
+    pincel.fill();
+
+    pincel.fillStyle = "white";
+    pincel.fillRect(250 , 190, 100 , 20)
+    // pincel.beginPath();
+    // pincel.moveTo(300 , 200)
+    // pincel.lineTo(350 , 250)
+    // pincel.lineTo(250 , 250)
+    // pincel.fill();
+
+    pincel.fillStyle = "green";
+    pincel.fillRect(0, 450 , 300 , 400)
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(30 , 510 , 50 , 60)
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(50 , 530 , 50 , 60)
+
+    pincel.fillStyle = "white";
+    pincel.fillRect(60 , 530 , 30 , 30)
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(220, 510 , 50 , 60)
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(200 , 530 , 50 , 60)
+
+    pincel.fillStyle = "white";
+    pincel.fillRect(210 , 530 , 30 , 30)
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(100 , 700 , 100 , 50)
+
+    pincel.fillStyle = "white";
+    pincel.fillRect(100, 700 , 100 , 20)
+
+    pincel.fillStyle = "red";
+    pincel.fillRect(170, 730 , 30 , 20)
+
+
+</script>

@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>")
+        document.write("<br>")
+    }
+
+    function mostra(frase){
+        document.write(frase)
+        pulaLinha();
+    }
+
+    var tabuada = parseInt(prompt("informe um número para calcularmos a tabuda: "))
+    var multiplicador = parseInt(prompt("informe um número para ser o multiplicado máximo da tabuda;"))
+    var calculoTotal = tabuada * multiplicador
+
+    while (multiplicador <= 10){
+        mostra (tabuada * multiplicador)
+        multiplicador++;
+    }
+
+</script>

@@ -1,0 +1,30 @@
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) { 
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var funcionarios = parseInt(prompt("quantos funcionários tem na sua empresa?"));
+
+    var totalidades = 0;
+    var numero = 1;
+
+    while (numero <= funcionarios){
+        var salarioDosFuncionarios = parseInt(prompt("informe o salário dos funcionários"))
+        totalidades = totalidades + salarioDosFuncionarios
+        numero++;
+
+    }
+
+    var mediaDosFuncionários = totalidades/ funcionarios
+
+    mostra(" a média dos salários dos funcionários da sua empresa é " + mediaDosFuncionários)
+    
+    
+
+</script>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+
+section {
+
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.btncripto{
+    cursor: all-scroll;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 40px;
+    right: 1100px;
+    padding: 20px;
+    
+    
+    display: inline-block;
+    text-align: left;
+}
+
+.btndescripto{
+    cursor: all-scroll;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    right: 1100px;
+    padding: 20px;
+    
+    
+    display: inline-block;
+    text-align: left;
+}
+
+        
+
+
+.detetive {
+    bottom: 350px;
+    right: -90px;
+    position: relative;
+    display: inline;
+    margin-right: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+#inputTexto {
+   
+    position: relative;
+    top: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: #feffeb;
+    margin:40px ;   
+    width: 500px;
+    height: 500px;
+
+}
+    
+
+#mensagem {
+    position: relative;
+    top: 40px;
+    right: -200px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    width:  300px;
+    height: 550px;
+
+}
+    
